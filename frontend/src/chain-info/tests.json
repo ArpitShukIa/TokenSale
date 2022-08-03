@@ -1,0 +1,78 @@
+{
+  "contracts": {
+    "DappToken": "b822c97e4d0ebc789d29011fcff1e4b14fb2030a",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/ERC20": "d0e8b1989cf0fad3654a6e1dcc883e7fc1f82aa3",
+    "TokenSale": "9c7d1f3a61209fce3edb44101ee9293cde9221c1"
+  },
+  "tests": {
+    "tests/test_token_sale.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..",
+      "sha1": "bad14cd68a9a407e43c2dacbac4cdd6de748b72d",
+      "txhash": [
+        "52788f9ea3589d836749c5f351d3a0af960070ae",
+        "77be6b0c7d6b5addd6dcbe31ec5763af5db25597",
+        "b708bbb12329c099a1c45d704c929a84d157ec8b"
+      ]
+    }
+  },
+  "tx": {
+    "52788f9ea3589d836749c5f351d3a0af960070ae": {
+      "TokenSale": {
+        "1": [
+          [
+            0
+          ],
+          [
+            8
+          ],
+          []
+        ]
+      }
+    },
+    "77be6b0c7d6b5addd6dcbe31ec5763af5db25597": {
+      "TokenSale": {
+        "1": [
+          [
+            5
+          ],
+          [
+            11
+          ],
+          []
+        ]
+      }
+    },
+    "b708bbb12329c099a1c45d704c929a84d157ec8b": {
+      "DappToken": {
+        "0": [
+          [
+            2
+          ],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ]
+      },
+      "TokenSale": {
+        "1": [
+          [
+            0,
+            1
+          ],
+          [
+            9
+          ],
+          [
+            8
+          ]
+        ]
+      }
+    }
+  }
+}

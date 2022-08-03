@@ -9,7 +9,7 @@ TOKEN_PRICE = Web3.toWei(0.001, "ether")
 
 def deploy_token_sale_and_dapp_token():
     account = get_account()
-    dapp_token = DappToken.deploy({"from": account})
+    dapp_token = DappToken.deploy(INITIAL_SUPPLY, {"from": account})
     token_sale = TokenSale.deploy(
         dapp_token.address,
         TOKEN_PRICE,
